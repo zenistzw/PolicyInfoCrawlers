@@ -1,0 +1,10 @@
+CREATE DATABASE PolicyInfo;
+USE PolicyInfo;
+CREATE TABLE if not exists mof(
+   id INT NOT NULL AUTO_INCREMENT,
+   policy_date VARCHAR(255) NOT NULL,
+   policy_title VARCHAR(255) NOT NULL,
+   policy_id VARCHAR(255) NOT NULL,
+   policy_link VARCHAR(255) NOT NULL,
+   PRIMARY KEY (id)
+)ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
